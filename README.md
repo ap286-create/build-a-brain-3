@@ -33,6 +33,7 @@ pip install -r requirements.txt`
 
 ### Step 5: Run the program!
 `python main.py`
+
 ---
 
 ### What Should Happen:
@@ -82,7 +83,6 @@ If you made it this far, the game should be running 🎉
   + Frontal (speech/executive function)
 + Slide-based progression system with activity checkpoints
 
---
 ## ©️ Citations
 
 ### Title / UI Design
@@ -115,7 +115,7 @@ If you made it this far, the game should be running 🎉
 - Animal comparison visuals: Facebook Brain Maze (uncredited)
 - Additional lobe visuals: Multiple online educational sources (untracked)
 
---
+---
 ## 👩‍💻 Credits
 
 Developed by **Abena Poku**
