@@ -8,14 +8,12 @@ An interactive computer vision + gesture-based learning game that teaches the br
 Modules Involved:  **Module 2 - Mind & Brain** and **Module 4 - Perceiving and Recognizing Objects**
 
 ---
-## Instructions (no coding experience needed)
+## 📝 Instructions (no coding experience needed)
 ### Step 1: Install Python (if you don't already have it installed)
 Download and install Python (version 3.9 or newer):
 + https://www.python.org/downloads/
 
-**IMPORTANT:**  
-During installation, check the box that says:
-✔ "Add Python to PATH"
+**IMPORTANT:** During installation, check the box that says: "Add Python to PATH"
 
 ### Step 2: Copy the Github link to this project
 + Click the green **"Code"** button on GitHub → click **"Copy URL to clipboard"**
@@ -24,8 +22,7 @@ During installation, check the box that says:
 - **Mac:** Open “Terminal”  
 - **Windows:** Open “Command Prompt”
 
-**IMPORTANT:**  
-Make sure you're in a folder that you *want* the project to be cloned into. you might have to cd into the correct folder, like Downloads or Desktop.
+**IMPORTANT:** Make sure you're in a folder that you *want* the project to be cloned into. you might have to cd into the correct folder, like Downloads or Desktop.
 
 Type this (then press Enter):
 `git clone [the-link-you-just-copied]`
@@ -36,44 +33,44 @@ pip install -r requirements.txt`
 
 ### Step 5: Run the program!
 `python main.py`
+---
 
---
-## What Should Happen:
+### What Should Happen:
 + A camera window will open
 + A slideshow window will appear
 + You’ll interact using:
- + hand gestures 👍 👎
+ + hand gestures 👍 👎 👉
  + objects (like holding items)
  + facial expressions
  + voice (when prompted)
 
-## If Something Doesn’t Work
-### Camera not showing?
+### If Something Doesn’t Work:
+#### Camera not showing?
 + Make sure your webcam is connected
 + Try changing this line in main.py:
 `cam = cv2.VideoCapture(0)`
 
-### “Module not found” error?
+#### “Module not found” error?
 + Run again:
 `pip install -r requirements.txt`
 
-### Mic not working?
+#### Mic not working?
 + Allow microphone permissions in system settings
 
-## Tips
+### Tips
 + Good lighting helps detection a LOT
 + Hold objects clearly in front of the camera
 + Avoid cluttered backgrounds
-_**🧠 That’s it!**_
+_**That’s it!**_
 
 If you made it this far, the game should be running 🎉
 
 ---
-## Video Demo
+## 🎬 Video Demo
 <https://google.com>
 
---
-## Features
+---
+## 🛠️ Features
 + Real-time object detection (YOLO-based)
 + Gesture tracking (hand input)
 + Facial expression detection
@@ -86,7 +83,7 @@ If you made it this far, the game should be running 🎉
 + Slide-based progression system with activity checkpoints
 
 --
-## Citations
+## ©️ Citations
 
 ### Title / UI Design
 - Brain Background used in "Click-to-Play" text  
@@ -119,7 +116,7 @@ If you made it this far, the game should be running 🎉
 - Additional lobe visuals: Multiple online educational sources (untracked)
 
 --
-## Credits
+## 👩‍💻 Credits
 
 Developed by **Abena Poku**
 
