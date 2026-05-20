@@ -58,26 +58,20 @@ def load_slide(index):
 #keyboard and voice and point event listeners
 def start_voice_recording(state, controller):
     def record():
-        print("[VOICE] started recording")
-
         r = sr.Recognizer()
         with sr.Microphone() as source:
             print("[VOICE] listening...")
             audio = r.listen(source)
 
-        print("[VOICE] audio captured")
 
         try:
             text = r.recognize_google(audio)
-            print("[VOICE] recognized:", text)
             state.voice_response = text
         except Exception as e:
-            print("[VOICE ERROR]", e)
             state.voice_response = "Could not understand audio"
 
     state.recording_voice = False
     state.voice_done = True
-    print("[VOICE] done flag set")
     threading.Thread(target=record, daemon=True).start()
 
 def get_region(x, y):
@@ -192,6 +186,7 @@ try:
     
         #handle camera
         hasFrame_cam, frame_cam = cam.read()
+        print("bello?")
 
         if not hasFrame_cam:
             break

@@ -1,6 +1,12 @@
 {
-  "start_time": 1777775362.358093,
+  "start_time": 1779247898.592452,
   "slides": [
+    {
+      "event": "Occipital Lobe Activity",
+      "color": "#d93849",
+      "object": "umbrella",
+      "time_spent": 29.55199885368347
+    },
     {
       "event": "Parietal Lobe Activity",
       "distance": 
